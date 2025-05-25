@@ -1,7 +1,7 @@
 # coffeesip
 Shows coffee ascii animations in the terminal
 
-# Build
+# Prerequisites
 
 - you need a C++ compiler
 - here, we will use the Gnu G++
@@ -35,7 +35,7 @@ sudo dnf install gcc-c++
 sudo pacman -S gcc
 ```
 
-## Windows
+### Windows
 
 - look for https://visualstudio.microsoft.com/visual-cpp-build-tools/
 - unfortunately, I don't compile under Windows, but the internet is big and ChatGPT is your friend :)
@@ -47,7 +47,7 @@ sudo pacman -S gcc
 g++ --version
 ```
 
-4. Build:
+# Build:
 
 ```bash
 g++ -o coffeesip main.cpp
@@ -55,7 +55,7 @@ g++ -o coffeesip main.cpp
 
 ---
 
-3. Running:
+## Running:
 
 ```bash
 ./coffeesip
